@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+div{
+    display: flex;
+    background-image: url(/img/coringa1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+  
+
+}
+header{
+    background-color: rgb(77, 15, 28);
+    height:120px;
+    background-image: url(/img/coringa2.png);
+    background-repeat: no-repeat;
+    /* background-size:150px; */
+    background-position: right;
+    margin-top: 0%;
+    /* margin-bottom: 0%; */
+  
+    
+}
+h1{
+    color: rgb(201, 151, 26);
+    padding: 30px;
+    font-size: 60px;
+    margin-left: 100px;
+}
+.footer{
+    background-color: rgb(77, 15, 28);
+    height: 70px;
+    margin-top:0px;
+}
+.footer p{
+    color: rgb(201, 151, 26);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:0%;
+    padding: 20px 350px;
+ 
+}
+.humores{
+    background-color: rgb(77, 15, 28);
+    height: 150px;
+    width: 200px;
+    margin: 0px 100px 100px 300px;
+    
+}
+.humores h3{
+    color: rgb(201, 151, 26);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+#alterar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+.img{
+    /* display: flex; */
+    background-color: rgb(77, 15, 28);
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+.img h3{
+    color: rgb(177, 138, 39);
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+#situacao{
+    color: rgb(177, 138, 39);
+}
+#corpo{
+      display: flex;
+      /* flex-direction: column; */
+      align-items:center;
+      
+  }
+#txt{
+    color: rgb(201, 151, 26);
+    font-size: 40px;
+    text-align: center;
+}
+button{
+    display: inline-block;
+    font-family: inherit;
+    display: inline-block;
+    margin: 2.5em;
+    border: 0;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #FFF;
+    background: rgb(161, 121, 20);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px rgb(161, 121, 20);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 0 0 rgb(161, 121, 20), inset 4px 4px 4px rgb(161, 121, 20);;
+    transform: translate(6px, 6px);
+}
